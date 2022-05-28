@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="products">
+      <div class="container">
+        <div class="heading d-flex flex-column align-items-center">
+          <p><i>Experience</i></p>
+          <h1>FLY IN THE SKY</h1>
+        </div>
+        <div class="row my-5">
+          <div
+            class="product-specification col-lg-3 col-md-6 d-flex flex-column align-items-center"
+          >
+            <div class="product-icon mb-4">
+              <i class="fa-solid fa-street-view fs-1 text-danger"></i>
+            </div>
+            <h5>Immersive Field of View</h5>
+            <p class="text-muted mt-2">
+              Screen equivalent to 125” screen viewed from 10 feet with 24-bit
+              true color (16 million colors)
+            </p>
+          </div>
+          <div
+            class="product-specification col-lg-3 col-md-6 d-flex flex-column align-items-center"
+          >
+            <div class="product-icon mb-4">
+              <i class="fa-brands fa-usb fs-1 text-success"></i>
+            </div>
+            <h5>USB & HDMI</h5>
+            <p class="text-muted mt-2">
+              Includes optional full immersion face mask. Supports HDMI industry
+              standard 3D content
+            </p>
+          </div>
+          <div
+            class="product-specification col-lg-3 col-md-6 d-flex flex-column align-items-center"
+          >
+            <div class="product-icon mb-4">
+              <i class="fa-solid fa-car-battery fs-1 text-primary"></i>
+            </div>
+            <h5>Battery</h5>
+            <p class="text-muted mt-2">
+              Built-in batteries allow the pilot to participate in the sport for
+              hours of racing.
+            </p>
+          </div>
+          <div
+            class="product-specification col-lg-3 col-md-6 d-flex flex-column align-items-center"
+          >
+            <div class="product-icon mb-4">
+              <i
+                class="fa-solid fa-person-walking-arrow-loop-left fs-1 text-warning"
+              ></i>
+            </div>
+            <h5>Return to Home</h5>
+            <p class="text-muted mt-2">
+              Return home tells the drone to automatically come back to you
+              using GPS. It's a very usefu onvenient feature.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="product-main d-flex justify-content-center">
+        <img src="product-img/product-main.jpg" alt="" />
+      </div>
+      <div class="shop-now p-5 mt-5 d-flex flex-column align-items-center">
+        <h3 class="mb-4 text-center text-white">
+          Buy Now Phantom 4 Professional offer an immersive, fun flying
+          experience.
+        </h3>
+        <button class="btn-shop-now">SHOP NOW</button>
+      </div>
+
+      <div class="p-5">
+        <div class="row mt-5">
+          <div class="col-md-6 col-sm-12">
+            <h1>
+              Integrated<span> PTZ camera</span> Stabilizes every single pixel
+              in the image
+            </h1>
+            <p class="text-muted mt-5">
+              PTZ camera includes a processor that calculates and compensates
+              additional movements, and highly sensitive 3-axis gambal
+              stabilizes up to 2000 vibrations per second, ± 0.02° accuracy.
+            </p>
+            <div class="product-features d-flex justify-content-between mb-3">
+              <div class="feature d-flex align-items-baseline">
+                <img src="product-img/diameter.webp" alt="" />
+                <div class="pro-description">
+                  <h6><span>58</span> mm</h6>
+                  <p class="text-muted">Diameter</p>
+                </div>
+              </div>
+              <div class="feature d-flex align-items-baseline">
+                <i class="fa-solid fa-gauge-max"></i>
+                <img src="product-img/video.webp" alt="" />
+                <div class="pro-description">
+                  <h6><span>40</span> fps</h6>
+                  <p class="text-muted">Video</p>
+                </div>
+              </div>
+              <div class="feature d-flex align-items-baseline">
+                <img src="product-img/weight.webp" alt="" />
+                <div class="pro-description">
+                  <h6><span>450</span> g</h6>
+                  <p class="text-muted">Weight</p>
+                </div>
+              </div>
+            </div>
+            <button class="btn-view">
+              View Product <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div
+            class="product-video col-md-6 col-sm-12 pro d-flex align-items-center justify-content-center mt-5"
+          >
+            <video
+              src="product-video/pro.mp4"
+              height="400px"
+              autoplay
+              loop
+            ></video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
